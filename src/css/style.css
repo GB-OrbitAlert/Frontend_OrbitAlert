@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: var(--neutral);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+}
+
+h1 {
+    color: var(--dark);
+    font-family: var(--title);
+    font-size: var(--title-size);
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 35px 400px ;
+    font-size: var(--text-size);
+
+    li a {
+        color: var(--dark);
+        font-family: var(--text);
+        text-decoration: none;
+        padding: 20px 20px;
+        display: inline-block;
+        transition: all .5s ease;
+
+        &hover {
+            color: var(--primary);
+        }
+    }
+}

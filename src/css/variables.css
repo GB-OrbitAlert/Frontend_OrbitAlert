@@ -6,10 +6,11 @@
     --secondary: #0d9488;
     --tertiary: #2dd4bf;
     --neutral: #f8fafc; 
+    --dark: #000000;
 
     --title: 'Arimo', sans-serif;
-    --title-size: 46px;
+    --title-size: 50px;
 
     --text: 'Nunito', Roboto, Calibri;
-    --text-size: 30px;
+    --text-size: 25px;
 }
