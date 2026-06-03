@@ -8,9 +8,29 @@
     --neutral: #f8fafc; 
     --dark: #000000;
 
-    --title: 'Arimo', sans-serif;
-    --title-size: 50px;
+    --font-base: "Arimo", sans-serif, system-ui;
+    --font-display: "Nunito", Roboto, Calibri;
 
-    --text: 'Nunito', Roboto, Calibri;
-    --text-size: 25px;
+    --fs-xs: 12px;
+    --fs-sm: 14px;
+    --fs-base: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 24px;
+    --fs-2xl: 32px;
+    --fs-3xl: 44px;
+
+    --container: 1120px;
+    --gap: 24px;
+    --radius: 14px;
+    --radius-menor: 10px;
+    --section-padY: 80px;
+    --radius-curvo: 999px;
+
+    --shadow-menor: 0 1px 2px rgba(10, 15, 14, 0.06);
+    --shadow-medio: 0 10px 30px rgba(10, 15, 14, 0.08);
+    --shadow-grande: 0 24px 60px rgba(10, 15, 14, 0.12);
+
+    --t-rapida: 0.15s ease;
+    --t-base: 0.25s ease;
+
 }
