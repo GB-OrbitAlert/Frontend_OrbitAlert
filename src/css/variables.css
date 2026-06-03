@@ -11,6 +11,7 @@
     --neutral-text: #444749; 
     --neutral-text2: #2D3133;
     --neutral-border: #fbecec;
+    --neutral: #ffff;
 
     --font-base: "Arimo", sans-serif, system-ui;
     --font-display: "Nunito", Roboto, Calibri;
@@ -26,7 +27,7 @@
     --container: 1120px;
     --gap: 24px;
     --radius: 14px;
-    --radius-menor: 10px;
+    --radius-menor: 5px;
     --section-padY: 80px;
     --radius-curvo: 999px;
 
