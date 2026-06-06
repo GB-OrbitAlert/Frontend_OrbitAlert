@@ -24,15 +24,18 @@
 .btn--primary {
     background-color: var(--secondary);
     color: var(--neutral);
+    font-size: var(--fs-base);
+    font-family: var(--font-title);
 }
 
 .btn--secondary {
-    background-color: transparent;
+    background-color: var(--primary);
     padding: 20px;
     border: 2px solid;
-    color: var(--dark);
-    border-radius: var(--radius-menor);
-    border-color: var(--primary);
+    color: var(--neutral);
+    border-radius: var(--radius-menor); 
+    font-size: var(--fs-base);
+    font-family: var(--font-title);
 }
 
 .card {

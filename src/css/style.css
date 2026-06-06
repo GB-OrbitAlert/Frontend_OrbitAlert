@@ -62,8 +62,10 @@
 }
 
 .hero h1 {
+    font-family: var(--font-title);
     font-size: var(--fs-3xl);
     margin: 25px 0 16px;
+    color: var(--primary);
 }
 
 .degrade {
@@ -107,6 +109,8 @@
 .problem h2 {
     font-size: var(--fs-2xl);
     margin-bottom:16px;
+    font-family: var(--font-title);
+    color: var(--primary);
 }
 
 .problem p {
@@ -194,6 +198,11 @@
 
 .audience {
     padding: var(--section-padY) 0;
+}
+
+.audience h2 {
+    color: var(--primary);
+    font-family: var(--font-title);
 }
 
 .au-header {
@@ -361,6 +370,7 @@
     font-size: var(--fs-xl);
     font-family: var(--font-title);
     margin-bottom: 16px;
+    color: var(--primary);
 }
 
 .ap-list {
