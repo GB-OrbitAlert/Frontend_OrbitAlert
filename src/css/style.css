@@ -73,7 +73,7 @@
 }
 
 .hero p {
-    font-size: var(--fs-base);
+    font-size: var(--fs-lg);
     font-family: var(--font-text);
     color: var(--neutral-text2);
     max-width: 460px;
@@ -117,7 +117,8 @@
 
 .problem p {
     color: var(--neutral-text2);
-    font-size: var(--fs-sm);
+    font-size: var(--fs-lg);
+    font-family: var(--font-text);
     max-width: 360px;
 }
 
@@ -420,16 +421,20 @@
 .footer-nome {
     font-family: var(--font-title);
     font-weight: 700;
-    font-size: var(--fs-base);
+    font-size: var(--fs-lg);
     color: var(--neutral);
 }
 
 .footer-copy {
     margin-top: 4px;
+    font-size: var(--fs-base);
 }
 
 .footer-membros {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    margin-top: 30px;
+    font-family: var(--font-title);
+    font-size: var(--fs-base);
 }
