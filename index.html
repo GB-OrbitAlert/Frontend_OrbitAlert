@@ -9,16 +9,7 @@
     <link rel="stylesheet" href="./src/css/variables.css">
 
     <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    
+     
     <title>OrbitAlert</title>
 </head>
 
@@ -45,7 +36,7 @@
             <div class="container">
                 <div class="texto-hero">
                     <h1>Protegendo vidas <span class="degrade">através do espaço</span></h1>
-                    <p>Monitoramos rios, florestas e condições climáticas em tempo real — combinando sensores no campo, comunicação sem fio e satélites da NASA para emitir alertas de enchentes e queimadas antes que seja tarde demais.</p>
+                    <p>Sistema que envia alertas de desastres naturais a comunidades sem internet ou sinal de celular.</p>
                     <div class="btn-hero">
                         <a href="#" class="btn btn--primary">Assista o vídeo</a>
                         <a href="#footer" class="btn--secondary">Membros</a>
@@ -61,21 +52,21 @@
         <section class="problem" id="problema">
             <div class="container">
                 <div>
-                    <h2>O que o <span class="degrade">OrbitAlert</span> resolve</h2>
-                    <p>Enchentes e queimadas matam milhares de pessoas por ano no Brasil — na maioria dos casos porque o alerta chega tarde demais para que comunidades vulneráveis possam agir. O OrbitAlert monitora continuamente os sinais de risco e entrega o alerta em menos de 2 segundos, dando tempo para que pessoas saiam de áreas de perigo.</p>
+                    <h2>Problemas que o <span class="degrade">OrbitAlert</span> planeja eliminar</h2>
+                    <p>Desastres naturais devastam comunidades vulneráveis que não recebem alertas a tempo.</p>
                 </div>
 
                 <div class="problem_cards">
                     <article class="card">
                         <i class="bx bx-announcement"></i>
-                        <h3>Alertas antes do desastre</h3>
-                        <p>Sensores no campo detectam a subida do rio e condições de queimada em tempo real, acionando o aviso sonoro e visual na base comunitária antes que a situação se torne irreversível.</p>
+                        <h3>Alertas que não chegam</h3>
+                        <p>Em 2024, o RS emitiu 26 alertas antes das enchentes, 184 pessoas morreram sem recebê-los.</p>
                     </article>
 
                     <article class="card">
-                        <i class="bx bx-satellite-dish"></i>
-                        <h3>Dados do espaço, ação no chão</h3>
-                        <p>Satélites da NASA e do INPE ampliam o alcance do sistema, cruzando dados locais com focos de incêndio e eventos climáticos detectados do espaço para calcular o risco com precisão.</p>
+                        <i class="bx bx-wifi-slash"></i>
+                        <h3>Exclusão digital estrutural</h3>
+                        <p>Mais de 14 milhões de brasileiros vivem sem cobertura celular, invisíveis ao sistema de alertas governamental.</p>
                     </article>
                 </div>
             </div>
@@ -90,19 +81,19 @@
 
                 <div class="cards-3">
                     <article class="card">
-                        <i class="bx bx-broadcast"></i>
-                        <h3>Transmissor - Unidade de campo</h3>
-                        <p>Instalado próximo a rios e áreas de risco, o transmissor usa um ESP-32 com sensores DHT22, HC-SR04 e sensor de nível d'água para medir continuamente as condições do ambiente. Os dados são classificados localmente e enviados a cada 5 segundos via módulo NRF24L01.</p>
-                    </article>
-                    <article class="card">
-                        <i class="bx bx-signal-5"></i>
-                        <h3>Receptor - Unidade de base</h3>
-                        <p>Posicionado em escolas ou postos comunitários, o receptor opera com um ESP-32 conectado a um display TFT ST7789 que exibe o nível de alerta em cores — verde, amarelo, laranja ou vermelho piscante. Em situações críticas, um buzzer é acionado automaticamente.</p>
+                        <i class="bx bx-satellite-dish"></i>
+                        <h3>APIs de Satélites Gratuitas</h3>
+                        <p>NASA FIRMS, INPE e Copernicus fornecem dados de queimadas, enchentes e eventos climáticos em tempo real.</p>
                     </article>
                     <article class="card">
                         <i class="bx bx-code"></i>
-                        <h3>Software Python</h3>
-                        <p>Rodando em um computador na base, o software consome APIs gratuitas da NASA FIRMS, NASA EONET e Open-Meteo para calcular o risco regional por meio de um modelo matemático exponencial. Os resultados são salvos em histórico e podem ser exportados como relatório com gráficos.</p>
+                        <h3>Backend Python</h3>
+                        <p>Algoritmo processa dados de satélites, classifica nível de risco por região e dispara alertas automaticamente.</p>
+                    </article>
+                    <article class="card">
+                        <i class="bx bx-wifi"></i>
+                        <h3>Receptor e Transmissor</h3>
+                        <p>Dois dispositivos comunicam-se via rádio com distância de até 15 km, sem internet ou celular.</p>
                     </article>
                 </div>
             </div>
@@ -118,16 +109,16 @@
                         <h2>Objetivos do <span class="degrade">OrbitAlert</span></h2>
                     </div>
                     <div class="obj-item">
-                        <h3>Alertas onde a internet não chega</h3>
-                        <p>- O OrbitAlert leva dados satelitais da NASA até um dispositivo físico local, sem internet, sem celular e sem cadastro — por R$ 340 por comunidade.</p>
+                        <h3>Alcançar os mais vulneráveis</h3>
+                        <p>- Levar alertas de emergência a 14 milhões de brasileiros sem cobertura celular em regiões remotas.</p>
                     </div>
                     <div class="obj-item">
-                        <h3>O problema que o governo ainda não resolveu</h3>
-                        <p>- O sistema oficial de alertas do Brasil exige 4G para funcionar, tornando-o invisível para os 14 milhões de brasileiros em áreas remotas sem cobertura móvel.</p>
+                        <h3>Custo acessível por comunidade</h3>
+                        <p>- Instalar sistema funcional de alerta por apeans R$ 340, viabilizando adoção em larga escala.</p>
                     </div>
                     <div class="obj-item">
-                        <h3>Tecnologia espacial acessível a qualquer comunidade</h3>
-                        <p>- Dados gratuitos de satélites da NASA, ESA e INPE processados por um algoritmo Python e entregues em hardware simples que qualquer professor ou agente de saúde consegue instalar em 2 horas.</p>
+                        <h3>independente de infraestrutura</h3>
+                        <p>- Operar sem internet, sem celular e sem operadoras, usando rádio e energia solar autônoma.</p>
                     </div>
                 </article>
             </div>
@@ -141,26 +132,26 @@
 
                     <div class="au-cards">
                         <article class="au-left">
-                            <h3>Comunidades sem cobertura móvel</h3>
-                            <p>Mais de 20 milhões de brasileiros não possuem acesso a internet.</p>
+                            <h3>Comunidades Ribeirinhas</h3>
+                            <p>Morades às margens de rios em zonas de risco de enchente, sem sinal de celular confiável.</p>
                         </article>
                         
                         <div class="au-right">
                             <article class="aucard aucard-up">
-                                <h4>Moradores de áreas de risco sem alerta offline</h3>
-                                <p>Cerca de 5.7 milhões de brasileiros em zonas de risco não recebem alertas emergenciais confiáveis.</p>
+                                <h4>Comunidades e Postos de Saúde</h3>
+                                <p>Locais comunitários que abrigam a unidade receptora, sendo ponto de aviso para toda a população.</p>
                             </article>
                         </div>
                         
                         <div class="au-bottom">
                             <article class="aucard aucard-down">
-                                <h4>Comunidades indígenas em áreas florestais</h3>
-                                <p>Aproximadamente 500 mil pessoas vivem em territórios isolados sem nenhum sistema de alerta físico.</p>
+                                <h4>Comunidades Indígenas</h3>
+                                <p>Cerca de 500 mil pessoas em áreas florestais, completamente sem sistemas físicos de alerta.</p>
                             </article>
                             
                             <article class="aucard aucard-right">
-                                <h4>Escolas e postos de saúde em regiões rurais</h3>
-                                <p>Mais de 8 mil escolas brasileiras ainda operam sem internet, totalmente desconectadas de alertas oficiais.</p>
+                                <h4>Defesa Civil e Gestores Públicos</h3>
+                                <p>Órgãos que podem escalar a solução para cobrir regiões atualmente invisíveis ao sistema governamental.</p>
                             </article>
                         </div>
                     </div>
@@ -178,27 +169,27 @@
 
                 <div class="benefits-grid">
                     <div class="benefits">
-                        <i class="bx bx-wifi-slash"></i>
-                        <h4>Funciona sem internet e sem celular</h4>
-                        <p>Opera com rádio de longo alcance, independente de qualquer operadora ou sinal.</p>
+                        <i class="bx bx-band-aid"></i>
+                        <h4>Salva Vidas com Antecedência</h4>
+                        <p>Emite alertas físicos e sonoros em menos de 2 segundos, permitindo a evacuação a tempo.</p>
                     </div>
                     
                     <div class="benefits">
                         <i class="bx bx-currency-notes"></i>
-                        <h4>Custo acessível para qualquer prefeitura</h4>
-                        <p>Kit completo por R$ 340 - instalação única, sem mensalidade ou contrato</p>
+                        <h4>Economicamente Sustentável</h4>
+                        <p>R$ 340 por comunidade contra R$ 886 milhões gastos em resposta a desastres em 2025.</p>
                     </div>
                     
                     <div class="benefits">
-                        <i class="bx bx-siren"></i>
-                        <h4>Alerta físico audível a 50 metros</h4>
-                        <p>Buzzer sonoro e display garantem que todos na comunidade ouçam</p>
+                        <i class="bx bx-cog"></i>
+                        <h4>Fácil Instalação e Manutenção</h4>
+                        <p>Qualquer professor ou líder comunitário instala em 2 horas, sem técnico especializado necessário.</p>
                     </div>
                     
                     <div class="benefits">
-                        <i class="bx bx-power"></i>
-                        <h4>Instalação sem técnico especializado</h4>
-                        <p>Professor ou agente de saúde instala em 2 horas seguindo manual simples</p>
+                        <i class="bx bx-code-alt"></i>
+                        <h4>Código Aberto e Escalável</h4>
+                        <p>Repositório público permite replicação e evolução por qualquer desenvolvedor ou governo.</p>
                     </div>
                 </div>
             </div>
@@ -212,9 +203,9 @@
                         <p>Um sistema que age sozinho, sem precisar de ninguém acordado para salvar vidas.</p>
 
                         <ul class="ap-list">
-                            <li> <i class="bx bx-check"></i> Rio subindo? Buzzer dispara automaticamente.</li>
-                            <li> <i class="bx bx-check"></i> Queimada detectada? Display alerta a comunidade.</li>
-                            <li> <i class="bx bx-check"></i> Sensor no campo, segurança na escola.</li>
+                            <li> <i class="bx bx-check"></i> Monitoramento contínuo de desastres</li>
+                            <li> <i class="bx bx-check"></i> Alerta físico imediato local</li>
+                            <li> <i class="bx bx-check"></i> Cobertura de regiões sem internet</li>
                         </ul>
                     </div>
 
